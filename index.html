@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First JS Prj</title>
+    <meta charset="UTF-8" />
+    <base href="/" />
+    <link rel="stylesheet" href="./src/styles.css" type="text/css" />
+
+  </head>
+
+  <body>
+
+    <form class="js-weather">
+      <h4 class="weather" style = "font-size:1.0em; color: white;"> aaa </h4>
+    </form>
+
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Add To Do" style="width:800px; height:50px;" />
+    </form>
+
+
+    <form class="js-clock" style = "font-family: Verdana, Geneva, Tahoma, sans-serif;" >
+      <h1 class="clock-main" style = "font-size:8em;  color: white;"><h1>
+      <!-- <h3 class="clock-ampm" style = "font-size:2.5em;  color: gray;"> AM </h3> -->
+      <h3 class="clock-sec" style = "font-size:3.5em;  color: white;"> </h3>
+    </form>
+
+      <form class="js-owner">
+        <input id="onwer-name" type="text" onfocus = "this.select()"/>
+        <input id="edit-owner" type="button" value="edit name" style = "color: darkgray; border: none; background: transparent ; "/>
+      </form>
+  
+
+
+      <form class="js-toDoList" >
+      </form>
+
+    <script type="module" src="src/clock.js"></script>
+    <script type="module" src="src/bgimage.js"></script>
+    <script type="module" src="src/todo.js"></script>
+    <script type="module" src="src/owner.js"></script>
+    <script type="module" src="src/weather.js"></script>
+  </body>
+</html>
